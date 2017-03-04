@@ -7,7 +7,7 @@ RUN apt-get -y update && \
     python -m virtualenv /ncolony
 
 RUN /jupyter/bin/pip install --upgrade pip wheel && \
-    /jupyter/bin/pip install twisted treq klein jupyter
+    /jupyter/bin/pip install twisted treq klein==17.2.0 jupyter
 
 RUN /ncolony/bin/pip install --upgrade pip wheel && \
     /ncolony/bin/pip install ncolony
