@@ -1,1 +1,1 @@
-docker run -p 127.0.0.1:8888:8888 -p 127.0.0.1:8080:8080 --rm -it jutwister
+docker run -p 127.0.0.1:8888:8888 -p 127.0.0.1:9090:9090 --rm -it jutwister
