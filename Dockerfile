@@ -8,9 +8,9 @@ RUN python3.6 -m venv /jupyter && \
     /jupyter/bin/pip install --upgrade pip wheel && \
     /jupyter/bin/pip install -r /jupyter.requirements.txt && \
     /ncolony/bin/pip install --upgrade pip wheel && \
-    /jupyter/bin/pip install -r /ncolony.requirements.txt && \
+    /ncolony/bin/pip install -r /ncolony.requirements.txt && \
     /remotemath/bin/pip install --upgrade pip wheel && \
-    /jupyter/bin/pip install -r /remotemath.requirements.txt && \
+    /remotemath/bin/pip install -r /remotemath.requirements.txt && \
     mkdir -p /var/run/ncolony/messages /var/run/ncolony/config /root/.jupyter
 
 COPY jupyter.json remotemath.json /var/run/ncolony/config/
