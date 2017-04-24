@@ -1,7 +1,0 @@
-setup.py
-src/remotemath/__init__.py
-src/remotemath.egg-info/PKG-INFO
-src/remotemath.egg-info/SOURCES.txt
-src/remotemath.egg-info/dependency_links.txt
-src/remotemath.egg-info/requires.txt
-src/remotemath.egg-info/top_level.txt
